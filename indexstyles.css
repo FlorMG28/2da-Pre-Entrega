@@ -3,10 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 .wapp{
     position: fixed;
     top: 5%;
     right: 5%;
+    width: 40px;
+    height: 40px;
 }
 .logo{
     width: 100%;
