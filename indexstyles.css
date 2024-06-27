@@ -3,10 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+body{
+    color: #eee;
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-style: normal;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to right, transparent, 20%, black),
+    url("./img/fondo\ freepik.jpg");
 }
 .wapp{
     position: fixed;
