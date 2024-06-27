@@ -5,8 +5,8 @@
 }
 body{
     color: #eee;
-    font-family: "Libre Baskerville", serif;
-    font-weight: 400;
+    font-family: "Lexend Zetta", sans-serif;
+    font-weight: 300;
     font-style: normal;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,4 +20,116 @@ body{
     right: 5%;
     width: 40px;
     height: 40px;
+}
+.opciones{
+    display: inline;
+}
+h1{
+    font-weight: 300;
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 10px;
+    letter-spacing: 6px;
+    font-size: 70px;
+}
+h3, h4{
+    font-weight: 300;
+    margin: 50px;
+    text-align: center;
+}
+h4 {
+    text-decoration: underline;
+}
+.subtitulo{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+nav{
+    display: flex;
+    margin: 30px;
+    border: solid burlywood;
+    padding: 12px;
+}
+.UlOpciones{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+p {
+    text-align: center;
+    padding: 30px;
+}
+fieldset{
+    border-radius: 4px;
+    padding: 10px;
+    margin: auto;
+    width: 50vw;
+}
+legend{
+    text-align: center;
+    padding: 5px;
+}
+label{
+    display: inline-block;
+    padding: 6px;
+    margin: 6px;
+    border-bottom: 1px solid;
+    border-radius: 4px;
+}
+input{
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+}
+select{
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+}
+footer{
+    margin: 60px;
+    display: grid;
+    grid-template-areas:
+    "A1 B1 C1 D1 E1"
+    "A2 B2 C2 D2 E2"
+    "A3 A3 A3 A3 A3";
+    gap: 3px;
+    justify-items: center;
+    row-gap: 20px;
+    font-size: small;
+}
+
+.pie{
+    grid-area: A1;
+}
+.volver{
+    grid-area: B1;
+}
+.UlProductos{
+    grid-area: C1;
+}
+.UlEventos{
+    grid-area: D1;
+}
+.UlQuienes{
+    grid-area: E1;
+}
+.LiProductos{
+    grid-area: C2;
+}
+.LiEventos{
+    grid-area: D2;
+}
+.LiQuienes{
+    grid-area: E2;
+}
+.LiPedidos{
+    grid-area: D2;
+}
+.Redes{
+    grid-area: A3;
+}
+a{
+    color: #eee;
 }
