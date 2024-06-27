@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0f0f0f;
+    color: #eee;
+}
+.wapp{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    width: 40px;
+    height: 40px;
+}
+h1{
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 10px;
+}
+.description{
+    margin: 10px;
+    text-align: center;
+}
+h3{
+    margin: 50px;
+    text-align: center;
+}
+p {
+    text-align: center;
+    padding: 30px;
+}
+fieldset{
+    border-radius: 4px;
+    padding: 10px;
+    margin: auto;
+    width: 50vw;
+}
+legend{
+    padding: 5px;
+}
+label{
+    display: inline-block;
+    padding: 6px;
+    margin: 6px;
+    border-bottom: 1px solid;
+    border-radius: 4px;
+}
+input{
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+}
+select{
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+}
+.text{
+    height: 50px;
+    width: 50vw;
+    border-radius: 4px;
+}
+footer{
+    margin: 60px;
+    display: grid;
+    grid-template-areas:
+    "A1 B1 C1 D1 E1"
+    "A2 B2 C2 D2 E2"
+    "A3 A3 A3 A3 A3";
+    gap: 3px;
+    justify-items: center;
+    row-gap: 20px;
+}
+
+.pie{
+    grid-area: A1;
+}
+.volver{
+    grid-area: B1;
+}
+.UlProductos{
+    grid-area: C1;
+}
+.UlEventos{
+    grid-area: D1;
+}
+.UlQuienes{
+    grid-area: E1;
+}
+.LiProductos{
+    grid-area: C2;
+}
+.LiEventos{
+    grid-area: D2;
+}
+.LiQuienes{
+    grid-area: E2;
+}
+.Redes{
+    grid-area: A3;
+}
+a{
+    color: #eee;
+}

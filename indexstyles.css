@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wapp{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    padding: 10%;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin: 5px;
+}
+.opciones{
+    display: inline;
+}
+.UlOpciones{
+    text-align: center;
+}
+.ImgIntroPangea{
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+}
+.IntroText{
+    text-align: center;
+    margin: 5%;
+    border: solid;
+}
+h3 {
+    text-align: center;
+    margin: 2%;
+}
+.PhotoProduct{
+    display: inline;
+    width: 50px;
+    text-align: center;
+    padding: 5%;
+    border: solid;
+    margin: 30px;
+}
+.NameProduct{
+    display: inline;
+    text-align: center;
+    padding: 5%;
+}
+.DetailCatering{
+    text-align: center;
+    margin: 5%;
+    border: solid;
+}
+.PhotoEvento{
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+}
+.ValUser{
+    display: inline;
+    width: 50px;
+    text-align: center;
+    padding: 5%;
+    border: solid;
+    margin: 30px;
+}
+.izq {
+    margin-left: 30%;
+}
+footer{
+    display: inline;
+}
+.UlProductos{
+    margin-left: 50%;
+}
+.UlEventos{
+    margin-left: 60%;
+}
+.UlQuienes{
+    margin-left: 80%;
+}
+/* Aca quisiera que las Ul Productos, Eventos y Quienes, queden a la misma altura, no en escalera */
