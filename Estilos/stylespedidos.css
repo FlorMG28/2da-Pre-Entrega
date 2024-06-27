@@ -32,10 +32,6 @@ h1{
     letter-spacing: 6px;
     font-size: 70px;
 }
-.description{
-    margin: 10px;
-    text-align: center;
-}
 h3{
     font-weight: 300;
     margin: 50px;
@@ -68,6 +64,7 @@ fieldset{
     width: 50vw;
 }
 legend{
+    text-align: center;
     padding: 5px;
 }
 label{
@@ -91,6 +88,10 @@ select{
     height: 50px;
     width: 50vw;
     border-radius: 4px;
+}
+.redondeado{
+    border-radius: 4px;
+    border: 0;
 }
 footer{
     margin: 60px;
