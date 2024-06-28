@@ -94,7 +94,9 @@ select{
     border: 0;
 }
 footer{
+    border: solid #eee;
     margin: 60px;
+    padding: 60px;
     display: grid;
     grid-template-areas:
     "A1 B1 C1 D1 E1"
@@ -135,4 +137,15 @@ footer{
 }
 a{
     color: #eee;
+}
+.SocialMedia{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+li {
+    list-style-type: none
+}
+.LogosRedes{
+    text-decoration: none;
 }

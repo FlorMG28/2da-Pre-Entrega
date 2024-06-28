@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../Estilos/stylesprod.css">
     <title>PRODUCTOS</title>
 </head>
@@ -14,11 +14,8 @@
         <a href="https://api.whatsapp.com/send/?phone=33767548334" target="_blank">
             <img class="wapp" src="../img/whatsapp.png" title="Escribinos!" alt="escribinos">
         </a>
-        <div class="logo">
-        <img src="" title="PANGEA" alt="LogoPangea">
-        </div>
         <h1>PANGEA</h1>
-        <h2>Pan de origen</h2>
+        <h3 class="subtitulo">PAN DE ORIGEN</h3>
     </header>
     <nav>
         <ul class="UlOpciones">
@@ -38,49 +35,43 @@
     </nav>
     <main>
         <article>
-            <section>
-                <h3>NUESTROS PRODUCTOS</h3>
-                <img class="PhotoProduct izq" src="" title="Nuestras Pizzas" alt="PhotoPizza">
-                <img class="PhotoProduct" src="" title="Nuestras Focaccias" alt="PhotoFocaccia">
-                <img class="PhotoProduct" src="" title="Nuestros Panes" alt="PhotoPan">
-            </section>
-            <section>
-                <div class="NameProduct izq">Nuestras Focaccias</div>
-                <div class="NameProduct">Nuestras Pizzas</div>
-                <div class="NameProduct">Nuestros Panes</div>
-            </section>
-            <section>
-                <p class="TextProduct">
+            <section class="PresentacionProductos">
+                <h3 class="PresentProd">NUESTROS PRODUCTOS</h3>
+                <img class="PhotoPizza" src="../img/pizza margherita.jpeg" title="Nuestras Pizzas" alt="PhotoPizza">
+                <img class="PhotoFoca" src="../img/PRODUCTO FOCACCIA.jpeg" title="Nuestras Focaccias" alt="PhotoFocaccia">
+                <img class="PhotoPan" src="../img/PRODUCTO PAN.jpeg" title="Nuestros Panes" alt="PhotoPan">
+                <div class="NamePizza">Nuestras Pizzas</div>
+                <div class="NameFoca">Nuestras Focaccias</div>
+                <div class="NamePan">Nuestros Panes</div>
+                <p class="TextPizza">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit consequuntur soluta officiis ex, facilis maiores quis tempora distinctio quia.
                 </p>
-                <p class="TextProduct">
+                <p class="TextFoca">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit consequuntur soluta officiis ex, facilis maiores quis tempora distinctio quia.
                 </p>
-                <p class="TextProduct">
+                <p class="TextPan">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit consequuntur soluta officiis ex, facilis maiores quis tempora distinctio quia.
                 </p>
             </section>
-            <section>
-                <img class="" src="" title="" alt="">
-                <img class="" src="" title="" alt="">
-                <img class="" src="" title="" alt="">
-                <img class="" src="" title="" alt="">
-                <img class="" src="" title="" alt="">
-                <img class="" src="" title="" alt="">
-                <img class="" src="" title="" alt="">
-                <img class="" src="" title="" alt="">
-                <img class="" src="" title="" alt="">
-            </section>
-            <section>
-                <span>Nombre producto 1</span>
-                <span>Nombre producto 2</span>
-                <span>Nombre producto 3</span>
-                <span>Nombre producto 4</span>
-                <span>Nombre producto 5</span>
-                <span>Nombre producto 6</span>
-                <span>Nombre producto 7</span>
-                <span>Nombre producto 8</span>
-                <span>Nombre producto 9</span>
+            <section class="PhotoAll">
+                <img class="pizza1" src="../img/pizza margherita.jpeg" title="" alt="">
+                <img class="pizza2" src="../img/pizza trufa.jpeg" title="" alt="">
+                <img class="pizza3" src="../img/Pizza arvejas.jpeg" title="" alt="">
+                <img class="foca1" src="../img/PRODUCTO FOCACCIA.jpeg" title="" alt="">
+                <img class="foca2" src="../img/FOCA MEDIANA.jpeg" title="" alt="">
+                <img class="foca3" src="../img/FOCACCIA GRANDE.jpeg" title="" alt="">
+                <img class="pan1" src="../img/PRODUCTO PAN.jpeg" title="" alt="">
+                <img class="pan2" src="../img/Pan Semillas.jpeg" title="" alt="">
+                <img class="pan3" src="../img/Pan Aceitunas.jpeg" title="" alt="">
+                <span class="NamePizza1">PIZZA MARGHERITA</span>
+                <span class="NamePizza2">PIZZA CON TRUFA</span>
+                <span class="NamePizza3">PIZZA STRACIATELLA</span>
+                <span class="NameFoca1">FOCACCIA CHICA 500GR</span>
+                <span class="NameFoca2">FOCACCIA MEDIANA 750GR</span>
+                <span class="NameFoca3">FOCACCIA GRANDE 1KG</span>
+                <span class="NamePan1">PAN CLASICO</span>
+                <span class="NamePan2">PAN SEMI INTEGRAL CON SEMILLAS</span>
+                <span class="NamePan3">PAN CON KALAMATA</span>
             </section>
             <p class="Personalizacion">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, nulla officia. Laborum vitae inventore optio pariatur, facere reprehenderit iusto accusantium, perspiciatis quaerat, quod enim asperiores a provident nihil eligendi perferendis. Temporibus ab nisi perspiciatis magnam quod, unde debitis ad saepe amet consequuntur, deleniti pariatur minima placeat, quis inventore tempore. Sint.
@@ -88,12 +79,15 @@
         </article>
     </main>
     <footer>
-        <div>PANGEA PAN DE ORIGEN</div>
-            <a href="../index.html">
+        <div class="pie">PANGEA PAN DE ORIGEN ®</div>
+            <a class="volver" href="../index.html">
                 VOLVER A HOME
             </a>
+        <a class="UlPedidos" href="pedidos.html">HACENOS TU PEDIDO
+        </a>
+
         <div class="UlEventos">EVENTOS</div>
-        <ul class="UlEventos">
+        <ul class="LiEventos">
             <a href="eventos.html">
                 <li>PANGEA en tu evento</li>
             </a>
@@ -105,7 +99,7 @@
             </a>
         </ul>
         <div class="UlQuienes">QUIENES SOMOS</div>
-        <ul class="UlQuienes">
+        <ul class="LiQuienes">
             <a href="quienessomos.html">
                 <li>Nuestra Cultura</li>
             </a>
@@ -116,18 +110,20 @@
                 <li>Contactanos</li>
             </a>
         </ul>
-        <a href="https://www.instagram.com/pangea_pandeorigen" target="_blank">
-            <img class="SocialMedia" src="" alt="Instagram">
-        </a>
-        <a href="https://www.facebook.com" target="_blank">
-            <img class="SocialMedia" src="" alt="Facebook">
-        </a>
-        <a href="https://www.linkedin.com" target="_blank">
-            <img class="SocialMedia" src="" alt="LinkedIn">
-        </a>
-        <a href="https://www.youtube.com" target="_blank">
-            <img class="SocialMedia" src="" alt="YouTube">
-        </a>
+        <section class="Redes">
+            <a href="https://www.instagram.com/pangea_pandeorigen" target="_blank" class="LogosRedes">
+                <img class="SocialMedia" src="../img/logo instagram.png" title="instagram">
+            </a>
+            <a href="https://www.facebook.com" target="_blank" class="LogosRedes">
+                <img class="SocialMedia" src="../img/logo facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="LogosRedes">
+                <img class="SocialMedia" src="../img/logo linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="LogosRedes">
+                <img class="SocialMedia" src="../img/logo youtube.png" alt="YouTube">
+            </a>
+            </section>
     </footer>
 </body>
 </html>

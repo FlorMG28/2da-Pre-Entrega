@@ -5,8 +5,8 @@
 }
 body{
     color: #eee;
-    font-family: "Libre Baskerville", serif;
-    font-weight: 400;
+    font-family: "Lexend Zetta", sans-serif;
+    font-weight: 300;
     font-style: normal;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,4 +20,232 @@ body{
     right: 5%;
     width: 40px;
     height: 40px;
+}
+.SocialMedia{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+li {
+    list-style-type: none
+}
+.LogosRedes{
+    text-decoration: none;
+}
+h1{
+    font-weight: 300;
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 10px;
+    letter-spacing: 6px;
+    font-size: 70px;
+}
+h3, h4{
+    font-weight: 300;
+    margin: 50px;
+    text-align: center;
+}
+h4 {
+    text-decoration: underline;
+}
+.subtitulo{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+nav{
+    display: flex;
+    margin: 30px;
+    border: solid burlywood;
+    padding: 12px;
+}
+.UlOpciones{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a{
+    color: #eee;
+}
+.PhotoPizza, .PhotoFoca, .PhotoPan{
+    height: 220px;
+    width: 220px;
+}
+.PresentacionProductos{
+    display: grid;
+    grid-template-areas:
+    "H3 H3 H3"
+    "A1 A2 A3"
+    "B1 B2 B3"
+    "C1 C2 C3";
+    gap: 3px;
+    justify-items: center;
+    row-gap: 20px;
+    font-size: small;
+}
+.PresentProd{
+    grid-area: H3;
+}
+.PhotoPizza{
+    grid-area: A1;
+}
+.PhotoFoca{
+    grid-area: A2;
+}
+.PhotoPan{
+    grid-area: A3;
+}
+.NamePizza{
+    grid-area: B1;
+}
+.NameFoca{
+    grid-area: B2;
+}
+.NamePan{
+    grid-area: B3;
+}
+.TextPizza{
+    grid-area: C1;
+}
+.TextFoca{
+    grid-area: C2;
+}
+.TextPan{
+    grid-area: C3;
+}
+.TextPizza, .TextFoca, .TextPan{
+    text-align: center;
+}
+.PhotoPizza, .PhotoPan, .PhotoFoca{
+    border: solid #eee;
+}
+.PhotoAll{
+    display: grid;
+    grid-template-areas:
+    "A1 A2 A3"
+    "B1 B2 B3"
+    "C1 C2 C3"
+    "D1 D2 D3"
+    "E1 E2 E3"
+    "F1 F2 F3";
+    gap: 3px;
+    justify-items: center;
+    row-gap: 20px;
+    font-size: small;
+    padding: 50px;
+}
+.pizza1 {
+    grid-area: A1;
+}
+.NamePizza1{
+    grid-area: B1;
+}
+.pizza2{
+    grid-area: C1;
+}
+.NamePizza2{
+    grid-area: D1;
+}
+.pizza3{
+    grid-area: E1;
+}
+.NamePizza3{
+    grid-area: F1;
+}
+.Foca1 {
+    grid-area: A2;
+}
+.NameFoca1{
+    grid-area: B2;
+}
+.Foca2{
+    grid-area: C2;
+}
+.NameFoca2{
+    grid-area: D2;
+}
+.Foca3{
+    grid-area: E2;
+}
+.NameFoca3{
+    grid-area: F2;
+}
+.pan1{
+    grid-area: A3;
+}
+.NamePan1{
+    grid-area: B3;
+}
+.pan2{
+    grid-area: C3;
+}
+.NamePan2{
+    grid-area: D3;
+}
+.Pan3{
+    grid-area: E3;
+}
+.NamePan3{
+    grid-area: F3;
+}
+.pizza1, .pizza2, .pizza3, .foca1, .foca2, .foca3, .pan1, .pan2, .pan3{
+    height: 120px;
+    width: 120px;
+    border: solid #eee;
+}
+.Personalizacion{
+    text-align: center;
+    font-size: 14px;
+    padding: 30px;
+}
+footer{
+    border: solid #eee;
+    margin: 60px;
+    padding: 60px;
+    display: grid;
+    grid-template-areas:
+    "A1 B1 C1 D1 E1"
+    "A2 B2 C2 D2 E2"
+    "A3 A3 A3 A3 A3";
+    gap: 10px;
+    justify-items: center;
+    row-gap: 20px;
+    font-size: small;
+}
+
+.pie{
+    grid-area: A1;
+}
+.volver{
+    grid-area: B1;
+}
+.UlPedidos{
+    grid-area: C1;
+}
+.UlEventos{
+    grid-area: D1;
+}
+.UlQuienes{
+    grid-area: E1;
+}
+.LiEventos{
+    grid-area: D2;
+}
+.LiQuienes{
+    grid-area: E2;
+}
+
+.Redes{
+    grid-area: A3;
+}
+.SocialMedia{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+li {
+    list-style-type: none
+}
+.LogosRedes{
+    text-decoration: none;
 }

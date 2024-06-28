@@ -6,7 +6,7 @@
     <title>PANGEA pan de origen</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="indexstyles.css">
 </head>
 <body>
@@ -14,11 +14,8 @@
         <a href="https://api.whatsapp.com/send/?phone=33767548334" target="_blank">
             <img class="wapp" src="./img/whatsapp.png" title="Escribinos!" alt="escribinos">
         </a>
-        <div class="logo">
-        <img src="" title="PANGEA" alt="LogoPangea">
-        </div>
         <h1>PANGEA</h1>
-        <h2>Pan de origen</h2>
+        <h3 class="subtitulo">PAN DE ORIGEN</h3>
     </header>
     <nav>
         <ul class="UlOpciones">
@@ -39,42 +36,39 @@
     <main>
         <article>
             <section class="introduction">
-                <img class="ImgIntroPangea" src="" title="PANGEA" alt="ImgIntroPangea">
                 <p class="IntroText">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis, alias doloribus placeat expedita officiis? Amet, explicabo. Id maxime praesentium blanditiis corrupti atque nisi fugiat illo ab illum dolores, architecto aut quos dolorum commodi? Enim vero unde, veritatis cum pariatur molestiae amet rem quaerat optio dicta, qui excepturi perspiciatis adipisci.
                 </p>
             </section>
             <section>
-                <h3>NUESTROS PRODUCTOS</h3>
-                <img class="PhotoProduct izq" src="" title="Nuestras Pizzas" alt="PhotoPizza">
-                <img class="PhotoProduct" src="" title="Nuestras Focaccias" alt="PhotoFocaccia">
-                <img class="PhotoProduct" src="" title="Nuestros Panes" alt="PhotoPan">
+                    <h3>NUESTROS PRODUCTOS</h3>
+                    <div class="PhotosProd">
+                        <img class="PhotoProduct" src="./img/pizza margherita.jpeg" title="Nuestras Pizzas" alt="PhotoPizza">
+                        <img class="PhotoProduct" src="./img/PRODUCTO FOCACCIA.jpeg" title="Nuestras Focaccias" alt="PhotoFocaccia">
+                        <img class="PhotoProduct" src="./img/PRODUCTO PAN.jpeg" title="Nuestros Panes" alt="PhotoPan">
+                    </div>
             </section>
-            <section>
-                <div class="NameProduct izq">Nuestras Focaccias</div>
-                <div class="NameProduct">Nuestras Pizzas</div>
-                <div class="NameProduct">Nuestros Panes</div>
+            <section class="NamesProd">
+                <div class="NameProduct">PIZZAS</div>
+                <div class="NameProduct">FOCACCIAS</div>
+                <div class="NameProduct">PANES</div>
             </section>
             <section class="eventos">
                 <h3>CATERING PARA EVENTOS</h3>
                 <p class="DetailCatering">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nihil ducimus ullam architecto tempora delectus esse vel quas pariatur reiciendis.
                 </p>
-                <img class="PhotoEvento" src="" title="Catering para Eventos" alt="PhotoCatering">
-            </section>
-        <br>
-            <section>
-                <img class="ValUser izq" src="" alt="Valoración Usuario">
-                <img class="ValUser" src="" alt="Valoración Usuario">
-                <img class="ValUser" src="" alt="Valoración Usuario">
+                <div class="PEvent">
+                <div class="PhotoEvento">
+                </div>
+                </div>
             </section>
         </article>
     </main>
-    <br>
     <footer>
-        <div>PANGEA PAN DE ORIGEN</div>
+        <div>PANGEA PAN DE ORIGEN ®</div>
         <div class="UlProductos">PRODUCTOS</div>
-        <ul class="UlProductos">
+        <ul class="LiProductos">
             <a href="./Secciones/productos.html">
                 <li>Pizzas</li>
             </a>
@@ -86,7 +80,7 @@
             </a>
         </ul>
         <div class="UlEventos">EVENTOS</div>
-        <ul class="UlEventos">
+        <ul class="LiEventos">
             <a href="./Secciones/eventos.html">
                 <li>PANGEA en tu evento</li>
             </a>
@@ -98,7 +92,7 @@
             </a>
         </ul>
         <div class="UlQuienes">QUIENES SOMOS</div>
-        <ul class="UlQuienes">
+        <ul class="LiQuienes">
             <a href="./Secciones/quienessomos.html">
                 <li>Nuestra Cultura</li>
             </a>
@@ -109,18 +103,20 @@
                 <li>Contactanos</li>
             </a>
         </ul>
-        <a href="https://www.instagram.com/pangea_pandeorigen" target="_blank">
-            <img class="SocialMedia" src="" alt="Instagram">
-        </a>
-        <a href="https://www.facebook.com" target="_blank">
-            <img class="SocialMedia" src="" alt="Facebook">
-        </a>
-        <a href="https://www.linkedin.com" target="_blank">
-            <img class="SocialMedia" src="" alt="LinkedIn">
-        </a>
-        <a href="https://www.youtube.com" target="_blank">
-            <img class="SocialMedia" src="" alt="YouTube">
-        </a>
+        <section class="Redes">
+            <a href="https://www.instagram.com/pangea_pandeorigen" target="_blank" class="LogosRedes">
+                <img class="SocialMedia" src="./img/logo instagram.png" title="instagram">
+            </a>
+            <a href="https://www.facebook.com" target="_blank" class="LogosRedes">
+                <img class="SocialMedia" src="./img/logo facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="LogosRedes">
+                <img class="SocialMedia" src="./img/logo linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="LogosRedes">
+                <img class="SocialMedia" src="./img/logo youtube.png" alt="YouTube">
+            </a>
+        </section>
     </footer>
 </body>
 </html>
