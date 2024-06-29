@@ -65,7 +65,7 @@
                 Texto explicando cómo funcionan los pedidos: detalles de tiempos para pedir, entregas, retiros, etc.
             </p>
         </section>
-        <section class="FormularioPedidos">
+        <section class="FormularioPedidos hasta839">
             <fieldset>
             <legend>Completá este formulario y disfrutá de PANGEA!</legend>
             <form>
@@ -103,6 +103,44 @@
             </form>
             </fieldset>
         </section>
+        <section class="FormularioPedidos desde840">
+          <fieldset>
+          <legend>Completá este formulario y disfrutá de PANGEA!</legend>
+          <form>
+              <label for="Nombre y Apellido">Nombre y Apellido</label>
+              <input class="nombre redondeado" type="text" name="Nombre y Apellido" placeholder="Ingresá tu nombre y Apellido" required>
+              <br>
+              <label for="date">Cuándo querés recibir tu pedido?</label>
+              <input class="redondeado" type="date" name="date" required>
+              <br>
+              <label for="seleccion">Elegí tu producto</label>
+              <select class="redondeado">
+                  <option value="Prod1">Pan blanco</option>
+                  <option value="Prod2">Pan Semi integral con semillas</option>
+                  <option value="Prod3">Pan blanco con kalamata</option>
+                  <option value="Prod4">Focaccia chica (500gr)</option>
+                  <option value="Prod5">Focaccia mediana (750gr)</option>
+                  <option value="Prod6">Focaccia grande (1kg)</option>
+                  <option value="Prod7">Pizza margherita</option>
+                  <option value="Prod8">Pizza con trufa</option>
+                  <option value="Prod9">Pizza con arvejas</option>
+                  <option value="Prod10">PRODUCTO PERSONALIZADO</option>
+              </select>
+              <br>
+              <label for="contacto">Tu e-mail</label>
+              <input class="redondeado" type="email" name="mail" placeholder="mail@mail.com" required>
+              <br>
+              <label for="ModoEntrega">Elegí cómo querés obtener tu pedido</label>
+              <select class="redondeado">
+                  <option value="Retiro">Quiero retirar mi pedido</option>
+                  <option value="Entrega">Quiero que me entreguen mi pedido</option>
+              </select>
+              <br>
+              <input class="text redondeado" type="text" name="texto" placeholder="Escribí acá toda la data que quieras sumar para que podamos continuar con tu pedido!" class="cuadrolibre">
+              <input class="redondeado" type="submit">
+          </form>
+          </fieldset>
+      </section>
     </main>
     <footer class="desde840">
         <div class="pie">PANGEA PAN DE ORIGEN ®</div>

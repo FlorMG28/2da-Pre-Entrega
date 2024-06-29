@@ -130,25 +130,29 @@ p {
 }
 fieldset{
     border-radius: 4px;
-    padding: 10px;
+    padding: 1px;
     margin: auto;
-    width: 50vw;
+    width: 70vw;
+    border: 2px solid #eee;
+    font-weight: 200;
 }
 legend{
     text-align: center;
     padding: 5px;
+    float: none;
 }
 label{
     display: inline-block;
     padding: 6px;
     margin: 6px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #eee;
     border-radius: 4px;
 }
 input{
     padding: 4px;
     margin: 10px;
     border-radius: 4px;
+    text-align: center;
 }
 select{
     padding: 4px;
