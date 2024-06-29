@@ -84,6 +84,34 @@ a{
         overflow: hidden;
         height: auto !important;
     }
+    fieldset{
+        width: 80vw;
+        font-size: 14px;
+        text-align: center;
+    }
+    legend{
+        float:initial;
+        font-size: 15px;
+        width: 20em;
+        margin: auto;
+        width: 20em;
+        height: 100%;
+        text-align: center;
+    }
+    form{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    label, input, select, .redondeado{
+        width: 20em;
+    }
+    .text{
+        width: auto;
+    }
 }
 @media (min-width:840px){
     .hasta839{
