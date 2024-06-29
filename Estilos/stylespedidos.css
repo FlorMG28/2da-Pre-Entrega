@@ -53,6 +53,49 @@ nav{
     flex-direction: row;
     justify-content: space-evenly;
 }
+a{
+    color: #eee !important;
+}
+.a{
+    color: #eee !important;
+}
+.menuham{
+    background-color: #eee;
+}
+@media (max-width:839px){
+    .desde840{
+        display: none;
+    }
+    h1{
+        margin: auto;
+        padding-top: 40px;
+        text-align: center;
+        font-size: 36px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    .subtitulo{
+        font-size: .9em;
+    }
+    .PhotoProduct{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: auto !important;
+    }
+}
+@media (min-width:840px){
+    .hasta839{
+        display: none;
+        }
+}
+.footermobile{
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
 p {
     text-align: center;
     padding: 30px;
