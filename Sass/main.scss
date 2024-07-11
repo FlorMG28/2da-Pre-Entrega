@@ -1,0 +1,39 @@
+.introduction{
+    text-align: center;
+    margin: 60px;
+}
+.PhotosProd{
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.PhotoProduct{
+    height: 240px;
+    width: 240px;
+    border: solid #eee;
+}
+.NamesProd{
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.DetailCatering{
+    text-align: center;
+    margin: 90px;
+}
+.PEvent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.PhotoEvento{
+    height: 120px;
+    width: 900px;
+    background-image: url(../img/FOTO\ CATERING.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid #eee;
+}

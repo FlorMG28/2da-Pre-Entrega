@@ -1,0 +1,57 @@
+.footermobile{
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+footer{
+    border: solid #eee;
+    margin: 60px;
+    padding: 60px;
+    display: grid;
+    grid-template-areas:
+    "A1 B1 C1 D1 E1"
+    "A2 B2 C2 D2 E2"
+    "A3 A3 A3 A3 A3";
+    gap: 3px;
+    justify-items: center;
+    row-gap: 20px;
+    font-size: small;
+}
+
+.pie{
+    grid-area: A1;
+}
+.UlProductos{
+    grid-area: C1;
+}
+.UlEventos{
+    grid-area: D1;
+}
+.UlQuienes{
+    grid-area: E1;
+}
+.LiProductos{
+    grid-area: C2;
+}
+.LiEventos{
+    grid-area: D2;
+}
+.LiQuienes{
+    grid-area: E2;
+}
+
+.Redes{
+    grid-area: A3;
+}
+.SocialMedia{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+li {
+    list-style-type: none
+}
+.LogosRedes{
+    text-decoration: none;
+}

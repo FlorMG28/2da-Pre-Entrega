@@ -1,0 +1,11 @@
+{
+  "name": "pangea-repo",
+  "version": "1.0.0",
+  "description": "pangea",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "florencia",
+  "license": "ISC"
+}
