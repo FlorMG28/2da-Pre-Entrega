@@ -1,0 +1,55 @@
+fieldset{
+    border-radius: 4px;
+    padding: 10px;
+    margin: auto;
+    width: 50vw;
+}
+label{
+    display: inline-block;
+    padding: 6px;
+    margin: 6px;
+    border-bottom: 1px solid;
+    border-radius: 4px;
+}
+input{
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+}
+.NuestrosDatos {
+    text-align: center;
+    padding: 10px;
+}
+@media (max-width:839px){
+    fieldset{
+        width: auto;
+        font-size: 14px;
+        text-align: center;
+    }
+    legend{
+        float:initial;
+        font-size: 15px;
+        width: 20em;
+        margin: auto;
+        width: 20em;
+        height: 100%;
+        text-align: center;
+    }
+    form{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    label, input, select {
+        width: 20em;
+    }
+    .text{
+        width: auto;
+    }
+    iframe {
+        width: auto;
+    }
+}
