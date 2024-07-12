@@ -1,20 +1,10 @@
 // Reseteo general
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    @include reset
 }
 // Estilos de body en todas las secciones del sitio, del link para contacto por whatsapp y de los header.
 body{
-    color: #eee;
-    font-family: "Lexend Zetta", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: linear-gradient(to right, transparent, 20%, black),
-    url("../img/fondo\ freepik.jpg");
+    @include body
 }
     .wapp{
         position: fixed;
