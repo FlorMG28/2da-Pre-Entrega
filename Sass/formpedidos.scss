@@ -1,3 +1,4 @@
+// Media query para aplicar cambios en el formulario de pedidos
 @media (max-width:839px){
     fieldset{
         width: 80vw;
@@ -28,6 +29,7 @@
         width: auto;
     }
 }
+// Estilos para formulario de pedidos en general
 p {
     text-align: center;
     padding: 30px;

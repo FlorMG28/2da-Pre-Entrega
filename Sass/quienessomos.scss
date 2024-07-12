@@ -1,3 +1,4 @@
+// Estilos para formulario de contacto general
 fieldset{
     border-radius: 4px;
     padding: 10px;
@@ -16,10 +17,12 @@ input{
     margin: 10px;
     border-radius: 4px;
 }
+// Estilos para sección de nuestros datos
 .NuestrosDatos {
     text-align: center;
     padding: 10px;
 }
+// Media query para el formulario de contacto general en vista mobile
 @media (max-width:839px){
     fieldset{
         width: auto;

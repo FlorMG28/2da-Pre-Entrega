@@ -1,9 +1,11 @@
+// Estilos para footer en vista mobile
 .footermobile{
     border: none;
     padding: 0;
     margin: 0;
     text-align: center;
 }
+// Orden de elementos del footer usando GRID
 footer{
     border: solid $color;
     margin: 60px;
@@ -18,7 +20,6 @@ footer{
     row-gap: 20px;
     font-size: small;
 }
-
 .pie{
     grid-area: A1;
 }

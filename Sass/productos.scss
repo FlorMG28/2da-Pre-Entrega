@@ -1,3 +1,4 @@
+// Distribución de fotos, nombre y descripción de productos usando display grid
 .PhotoPizza, .PhotoFoca, .PhotoPan{
     height: 220px;
     width: 220px;
@@ -50,11 +51,13 @@
 .PhotoPizza, .PhotoPan, .PhotoFoca{
     border: solid $color;
 }
+// Estilo para sección donde se explica cómo personalizar los productos.
 .Personalizacion{
     text-align: center;
     font-size: 14px;
     padding: 30px;
 }
+// Media query para el carrusel de fotos en vista mobile.
 @media (max-width: 839px) {
     .PresentacionProductos{
         display: flex;
@@ -89,6 +92,7 @@
             order: 9;
         }
 }
+// Estilos de carrusel
 .container-carrusel{
     display: block;
     object-position: center;
