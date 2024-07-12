@@ -1,3 +1,5 @@
+$color: #eee;
+
 nav{
     display: flex;
     margin: 30px;
@@ -10,12 +12,9 @@ nav{
         flex-direction: row;
         justify-content: space-evenly;
     }
-a{
-    color: #eee !important;
+a, .a{
+    color: $color !important;
 }
-    .a{
-        color: #eee !important;
-    }
     .menuham{
-        background-color: #eee;
+        background-color: $color;
     }

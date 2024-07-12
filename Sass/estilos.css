@@ -65,11 +65,7 @@ nav {
   justify-content: space-evenly;
 }
 
-a {
-  color: #eee !important;
-}
-
-.a {
+a, .a {
   color: #eee !important;
 }
 
@@ -468,6 +464,12 @@ input {
   border: solid #eee;
   border-radius: 4px;
   overflow: auto;
+}
+
+#carouselExampleCaptions, .carousel-inner {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=estilos.css.map */
