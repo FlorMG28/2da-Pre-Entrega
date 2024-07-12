@@ -419,94 +419,6 @@ input {
   border: solid #eee;
 }
 
-.PhotoAll {
-  display: grid;
-  grid-template-areas: "A1 A2 A3" "B1 B2 B3" "C1 C2 C3" "D1 D2 D3" "E1 E2 E3" "F1 F2 F3";
-  gap: 3px;
-  justify-items: center;
-  row-gap: 20px;
-  font-size: small;
-  padding: 50px;
-}
-
-.pizza1 {
-  grid-area: A1;
-}
-
-.NamePizza1 {
-  grid-area: B1;
-}
-
-.pizza2 {
-  grid-area: C1;
-}
-
-.NamePizza2 {
-  grid-area: D1;
-}
-
-.pizza3 {
-  grid-area: E1;
-}
-
-.NamePizza3 {
-  grid-area: F1;
-}
-
-.Foca1 {
-  grid-area: A2;
-}
-
-.NameFoca1 {
-  grid-area: B2;
-}
-
-.Foca2 {
-  grid-area: C2;
-}
-
-.NameFoca2 {
-  grid-area: D2;
-}
-
-.Foca3 {
-  grid-area: E2;
-}
-
-.NameFoca3 {
-  grid-area: F2;
-}
-
-.pan1 {
-  grid-area: A3;
-}
-
-.NamePan1 {
-  grid-area: B3;
-}
-
-.pan2 {
-  grid-area: C3;
-}
-
-.NamePan2 {
-  grid-area: D3;
-}
-
-.Pan3 {
-  grid-area: E3;
-}
-
-.NamePan3 {
-  grid-area: F3;
-}
-
-.pizza1, .pizza2, .pizza3, .foca1, .foca2, .foca3, .pan1, .pan2, .pan3 {
-  height: 120px;
-  width: 120px;
-  border: solid #eee;
-}
-
 .Personalizacion {
   text-align: center;
   font-size: 14px;
@@ -546,16 +458,16 @@ input {
   .TextPan {
     order: 9;
   }
-  .PhotoAll {
-    padding: 0;
-    width: auto;
-  }
-  .PhotoAll .pizza1, .PhotoAll .pizza2, .PhotoAll .pizza3, .PhotoAll .foca1, .PhotoAll .foca2, .PhotoAll .foca3, .PhotoAll .pan1, .PhotoAll .pan2, .PhotoAll .pan3 {
-    width: auto;
-  }
-  .PhotoAll .NamePizza1, .PhotoAll .NamePizza2, .PhotoAll .NamePizza3, .PhotoAll .NameFoca1, .PhotoAll .NameFoca2, .PhotoAll .NameFoca3, .PhotoAll .NamePan1, .PhotoAll .NamePan2, .PhotoAll .NamePan3 {
-    width: auto;
-  }
+}
+.container-carrusel {
+  display: block;
+  object-position: center;
+  margin: auto;
+  width: 70vw;
+  height: 300px;
+  border: solid #eee;
+  border-radius: 4px;
+  overflow: auto;
 }
 
 /*# sourceMappingURL=estilos.css.map */
