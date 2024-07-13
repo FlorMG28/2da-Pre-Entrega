@@ -311,6 +311,7 @@ fieldset {
   padding: 10px;
   margin: auto;
   width: 50vw;
+  text-align: center;
 }
 
 label {
@@ -325,6 +326,15 @@ input {
   padding: 4px;
   margin: 10px;
   border-radius: 4px;
+}
+
+.comentario {
+  width: 100%;
+  height: 200px;
+}
+
+.comentario::placeholder {
+  padding-top: 80px;
 }
 
 .NuestrosDatos {
@@ -355,7 +365,7 @@ input {
     justify-content: center;
     align-items: center;
   }
-  label, input, select {
+  label, input, select, .nombre {
     width: 20em;
   }
   .text {
