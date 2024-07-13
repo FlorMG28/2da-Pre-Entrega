@@ -460,7 +460,7 @@ input {
   object-position: center;
   margin: auto;
   width: 70vw;
-  height: 300px;
+  height: 220px;
   border: solid #eee;
   border-radius: 4px;
   overflow: auto;
@@ -470,6 +470,21 @@ input {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+@media (min-width: 840px) {
+  .container-carrusel {
+    display: flex;
+    width: 60vw;
+    height: 500px;
+    object-fit: contain;
+    justify-items: center;
+  }
+  .carousel-item, .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
