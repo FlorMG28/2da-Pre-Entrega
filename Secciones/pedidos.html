@@ -80,7 +80,7 @@
             <legend>Completá este formulario y disfrutá de PANGEA!</legend>
             <form>
                 <label for="Nombre y Apellido">Nombre y Apellido</label>
-                <input class="nombre redondeado" type="text" name="Nombre y Apellido" placeholder="Ingresá tu nombre y Apellido" required>
+                <input class="redondeado" type="text" name="Nombre y Apellido" placeholder="Ingresá tu nombre y Apellido" required>
                 <br>
                 <label for="date">Cuándo querés recibir tu pedido?</label>
                 <input class="redondeado" type="date" name="date" required>
@@ -108,21 +108,21 @@
                     <option value="Entrega">Quiero que me entreguen mi pedido</option>
                 </select>
                 <br>
-                <input class="text redondeado" type="text" name="texto" placeholder="Escribí acá toda la data que quieras sumar para que podamos continuar con tu pedido!" class="cuadrolibre">
+                <textarea class="text redondeado" type="text" name="texto" placeholder="Escribí todo lo que quieras para que podamos continuar con tu pedido!"></textarea>
                 <input class="redondeado" type="submit">
             </form>
             </fieldset>
       </section>
       <!-- Formulario para hacer pedidos en vistas tablet y desktop -->
       <section class="FormularioPedidos desde840">
-          <fieldset>
+          <fieldset class="fieldset-pedidos">
           <legend>Completá este formulario y disfrutá de PANGEA!</legend>
           <form>
               <label for="Nombre y Apellido">Nombre y Apellido</label>
               <input class="nombre redondeado" type="text" name="Nombre y Apellido" placeholder="Ingresá tu nombre y Apellido" required>
               <br>
               <label for="date">Cuándo querés recibir tu pedido?</label>
-              <input class="redondeado" type="date" name="date" required>
+              <input class="date redondeado" type="date" name="date" required>
               <br>
               <label for="seleccion">Elegí tu producto</label>
               <select class="redondeado">
@@ -139,7 +139,7 @@
               </select>
               <br>
               <label for="contacto">Tu e-mail</label>
-              <input class="redondeado" type="email" name="mail" placeholder="mail@mail.com" required>
+              <input class="mail redondeado" type="email" name="mail" placeholder="mail@mail.com" required>
               <br>
               <label for="ModoEntrega">Elegí cómo querés obtener tu pedido</label>
               <select class="redondeado">
@@ -147,7 +147,8 @@
                   <option value="Entrega">Quiero que me entreguen mi pedido</option>
               </select>
               <br>
-              <input class="text redondeado" type="text" name="texto" placeholder="Escribí acá toda la data que quieras sumar para que podamos continuar con tu pedido!" class="cuadrolibre">
+              <textarea class="text redondeado" type="text" name="texto" placeholder="Escribí acá todo lo que creas importante para que podamos procesar tu pedido. Nosotros te contactamos para dar el Ok!" rows="4"></textarea>
+              <br>
               <input class="redondeado" type="submit">
           </form>
           </fieldset>
